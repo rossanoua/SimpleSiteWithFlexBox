@@ -2,6 +2,7 @@ body{
     min-width: 457px;
 }
 
+/*start header styles*/
 header .firstline{
     display: flex;
     flex-flow: row nowrap;
@@ -33,3 +34,89 @@ header ul li{
     background-color: cadetblue;
     padding:10px;
 }
+/*end header styles*/
+
+/*start main section styles*/
+.main{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:flex-start;
+    align-items:flex-start;
+    background-color:lightgrey;
+}
+
+.main nav{
+    min-width: 30px;
+}
+
+.main nav ul {
+    padding:0;
+}
+
+.main nav ul li{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color:cadetblue;
+    margin:10px 0;
+}
+
+article{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+article div{
+    display: flex;
+    margin:20px;
+    flex-flow: row nowrap;
+    align-items:flex-end;
+}
+
+article div p{
+    margin: 0;
+}
+
+article div:first-child{
+    background-image: url(../img/avatar.png);
+    width: 178px;
+    height: 178px;
+    -webkit-background-size:contain;
+    background-size:contain;
+}
+
+article div:nth-child(2){
+    background-image: url(../img/circle2.png);
+    width: 178px;
+    height: 178px;
+}
+
+article div:nth-child(3){
+    background-image: url(../img/circle3.png);
+    width: 178px;
+    height: 178px;
+}
+
+article div:nth-child(4){
+    background-image: url(../img/circle4.png);
+    width: 178px;
+    height: 178px;
+}
+
+article div:nth-child(5){
+    background-image: url(../img/avatar.png);
+    width: 178px;
+    height: 178px;
+    -webkit-background-size:contain;
+    background-size:contain;
+}
+
+article div:last-child{
+    background-image: url(../img/circle4.png);
+    width: 178px;
+    height: 178px;
+}
+/*end main section styles*/
+
+/*start footer styles*/
+
+/*end footer styles*/
