@@ -1,0 +1,35 @@
+body{
+    min-width: 457px;
+}
+
+header .firstline{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background-color: lightgrey;
+}
+
+header .firstline div{
+    background-color: cadetblue;
+    padding:0 15px;
+}
+
+li {
+    list-style: none;
+}
+
+header ul{
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background-color: beige;
+    align-items:center;
+    height:60px;
+}
+
+header ul li{
+    background-color: cadetblue;
+    padding:10px;
+}
